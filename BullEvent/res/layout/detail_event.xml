@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:id="@+id/eventName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Createch Hackathon"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:padding="5sp"
+            />
+    <TextView
+            android:id="@+id/eventTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="10/8 Monday 10am-5pm"
+            android:textSize="18sp"
+            android:padding="4sp"
+            />
+    <TextView
+
+            android:id="@+id/eventPlace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kopp Bldg 104,105"
+            android:textSize="18sp"
+            android:padding="7sp"
+            />
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            />
+    <TextView
+            android:id="@+id/eventDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="You love hacking, right? How about winning some prizes? And yes, we won't send you hungry. Join us for a day of epic code, caffeine, free food, and swag! Come to The Createch Hackathon and work with fellow developers to build apps, websites, and software "
+            android:textSize="20sp"
+            android:padding="15sp"
+            />
+</LinearLayout>
+
